@@ -160,7 +160,6 @@ public class ImprovedMovement : MonoBehaviour
         {
             rb.velocity = new Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, terminalVelocity, 1000));
         }
-        
     }
 
     void GroundTouch()
